@@ -19,8 +19,11 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 
-<title>Terms and Conditions</title>
+<title>Dublin City Comics | Shop</title>
 
+  <link rel="dns-prefetch" href="//images-cdn.ecwid.com">
+  <link rel="dns-prefetch" href="//images.ecwid.com">
+  <link rel="dns-prefetch" href="//app.yolastore.com">
 
 
 <meta name="description" content="" />
@@ -36,7 +39,7 @@
     Some Style Themes enhanced with background textures provided by http://subtlepatterns.com/
 */
 body {
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
     
     background-repeat: repeat;
@@ -90,7 +93,7 @@ body {
     width:100%;
     min-height: 100vh;
     display: table-cell;
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
     vertical-align: top;
 }
@@ -101,7 +104,7 @@ body {
 .yola_heading_container {
     margin: 0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_inner_heading_wrap {
@@ -243,7 +246,7 @@ div.ys_submenu {
 .yola_content_wrap {
     margin:0 auto;
     
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
 }
 .yola_content_column {
@@ -288,7 +291,7 @@ a#sys_heading.yola_show_logo {
 .yola_footer_wrap {
     margin:0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_footer_column {
@@ -886,7 +889,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.small.solid a, .sys_layout .sys_button.small.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -913,7 +916,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.medium.solid a, .sys_layout .sys_button.medium.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -939,7 +942,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.large.solid a, .sys_layout .sys_button.large.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -1098,6 +1101,10 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
 
   
   
+  <link rel="stylesheet" type="text/css" href="classes/components/Image/layouts/Default/Default.css?1001088" />
+  
+  
+  
   
   
   
@@ -1133,11 +1140,11 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
       <li class="">
       <a href="./" title="Home">Home</a>
           </li>
-      <li class="">
-      <a href="shop.html" title="Shop">Shop</a>
+      <li class="selected">
+      <a href="Shop.php" title="Shop">Shop</a>
           </li>
       <li class="">
-      <a href="contact.html" title="Contact">Contact</a>
+      <a href="contact.php" title="Contact">Contact</a>
           </li>
   </ul>
                                             </div>
@@ -1157,11 +1164,11 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
                     <li id="ys_menu_0">
                     <a href="./" title="Home">Home</a>
         </li>
-                    <li id="ys_menu_1">
-                    <a href="shop.html" title="Shop">Shop</a>
+                    <li id="ys_menu_1"class="selected">
+                    <a href="Shop.php" title="Shop">Shop</a>
         </li>
                     <li id="ys_menu_2">
-                    <a href="contact.html" title="Contact">Contact</a>
+                    <a href="contact.php" title="Contact">Contact</a>
         </li>
     </ul>
                
@@ -1169,7 +1176,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
 /* jshint ignore:start */
 $(document).ready(function() {
     flyoutMenu.initFlyoutMenu(
-        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"shop.html","children":[]},{"name":"Contact","title":"Contact","href":"contact.html","children":[]}]
+        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"Shop.php","children":[]},{"name":"Contact","title":"Contact","href":"contact.php","children":[]}]
     , 'flyover');
 });
 /* jshint ignore:end */
@@ -1235,7 +1242,7 @@ $(document).ready(function() {
         }
 
         #yola-panel-inner-I9b1d9b95e5d849fe9be732bb0c8aebdc {
-            padding:5rem 1rem 5rem 1rem;
+            padding:1rem 1rem 0 1rem;
         }
 
         
@@ -1244,7 +1251,9 @@ $(document).ready(function() {
 
     <div id='yola-panel-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
                 <div id='yola-panel-inner-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
-            <div id="Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc" style="text-align:left; vertical-align:top;" ><div id="Id4eb23debe9843bdb2ffcae6deac3b31" style="display:block;clear: both;margin:0 0 2rem 0;" class="Text_2_Default"><style type="text/css">
+            <div id="Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc" style="text-align:left; vertical-align:top;" ><div id="I5247ddf7edf843c5b0284c95bbe68bdd" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="Ifd37fff92e24463ab3219f7afe93d1d2" style="display:block;clear: both;text-align:center;margin:0 0 0 0;" class="Image_Default"><style>#Ifd37fff92e24463ab3219f7afe93d1d2_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 730px;border:none;max-width: 100%;height: auto;}</style><img id="Ifd37fff92e24463ab3219f7afe93d1d2_img" src="resources/new-store-banner.png"  /></div><div id="Id1b136e7bb5a45a0bbac66ba1f954b6b" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="Idccb37e19dcd411099c059a71436fe2d" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1258,44 +1267,61 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="Id4eb23debe9843bdb2ffcae6deac3b31_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h3 style="text-align: center; color: rgb(5, 5, 5);" class="p1">Terms and Conditions</h3>
-<h5 style="color: rgb(0, 0, 0);">NOTE TO RECIPIENT</h5>
-<p style="color: rgb(0, 0, 0);">Thanks for buying stuff from us, your friendly neighbourhood comic and toy shop! May the force be with you, live long and prosper, but above all be excellent to each other!</p>
-<p style="color: rgb(0, 0, 0);">If we are posting stuff to you, proof of postage will be provided shortly after we get notification of payment.</p></div></div><div id="If743d9f8dd044115978ff031cf8f69c2" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
-</div><div id="I6bf9b5c8ab7646648d9e922617007d2d" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
-    div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
-    div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
-    div.sys_text_widget img{margin:4px;}
-    div.sys_text_widget {
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        color: ;
-        font: ;
-        background-color: ;
-    }
-</style>
+<div id="Idccb37e19dcd411099c059a71436fe2d_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h6><a href="https://www.dublincitycomics.ie/Shop.php#!/~/search" title="Search Products"><img src="resources/searchprod.png?timestamp=1585826103570" height="22" style="width: 27px;"><strong>Search Products</strong></a></h6></div></div><div id="I32f6508e2da64c5aa061557b49201a33" style="display:block;clear: both;margin:0 0 0 0;" class="Ecwid_Ecommerce_Default">
+<div>
+    <script type="text/javascript" src="https://app.yolastore.com/script.js?20146791" charset="utf-8"></script>
+    <script type="text/javascript">
+        var view = "";
 
-<div id="I6bf9b5c8ab7646648d9e922617007d2d_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h5 style="color: #000000;">TERMS AND CONDITIONS</h5>
-<p><span></span></p>
-<p><span style="color: #000000;">BY PAYING OR PAYING IN PART FOR THE ITEM(S) LISTED ON THIS INVOICE YOU ARE AGREEING TO THE TERMS OF SALE OUTLINED IN THE FOLLOWING ACTS OF IRISH LAW:</span></p>
-<p style="color: #000000;"><span>SALE</span><span> OF GOODS ACT 1893,</span></p>
-<p style="color: #000000;"><span>SALE</span><span> OF GOODS AND SUPPLY OF SERVICES ACT 1980,</span></p>
-<p><span style="color: #000000;">S.I. NO. 11/2003 - EUROPEAN COMMUNITIES (CERTAIN ASPECTS OF THE SALE OF CONSUMER GOODS AND ASSOCIATED GUARANTEES) REGULATIONS 2003.</span></p>
-<p><span style="color: #000000;">ALL ITEMS SOLD AS “SECOND HAND” OR “PREOWNED” ARE EXEMPT FROM NORMAL WARRANTIES AND ARE “SOLD AS SEEN”. ALL SUCH ITEMS SHOULD BE AND ARE ASSUMED TO BE INSPECTED BY THE BUYER AT THE TIME OF SALE. </span></p>
-<p><span style="color: #000000;">ANY MINOR DEFECTS/DAMAGES REPORTED AFTER THE SALE WILL NOT BE ENTERTAINED.</span></p>
-<p><span style="color: #000000;">ALL ITEMS SOLD AS “PREORDERS” OR “PREORDERED” SHALL BE REGARDED AS “FUTURE GOODS” UNDER THE SALE OF GOODS ACT 1893 AND THE AGREED UPON PRICE IS ALWAYS CONSIDERED AN ESTIMATED PRICE AND MAY FLUCTUATE IN ACCORDANCE WITH CURRENCY EXCHANGES/SUPPLIER PRICE INCREASES. WE WILL ALWAYS ENDEAVOUR TO INFORM CUSTOMERS OF THESE POSSIBLE INCREASES IN ADVANCE OF PAYMENT.</span></p>
-<p><span style="color: #000000;">ANY ITEM(S) IN THE STORE CAN BE HELD AND PAYED FOR WITH INSTALLMENTS FOR A MAXIMUM OF UP TO TWO MONTHS AFTER INITIAL PAYMENT WITH AN INITIAL DEPOSIT OF 20% OF THE TOTAL SALE/ITEM(S) VALUE. PART PAYED FOR ITEMS WILL BE CONSIDERED AS STORE PROPERTY UNTIL FINAL PAYMENT IS MADE. THE BALANCE OF PAYMENT FOR PREORDERED AND HELD ITEM(S) MUST BE PAID WITHIN TWO MONTHS OF THE ITEMS ARRIVAL IN STORE/ INITIAL PAYMENT OR YOU WILL LOSE YOUR DEPOSIT.</span></p>
-<p><span style="color: #000000;">PREORDERED ITEMS WILL NOT BE ORDERED WITHOUT A DEPOSIT UNLESS AGREED AT THE TIME OF INITIAL ORDER.</span></p>
-<p><span style="color: #000000;">PAYMENTS CAN BE MADE AT ANY TIME IN STORE OR VIA PAYPAL INVOICE AFTER THE INITIAL PAYMENT AND THE ITEM MUST BE COLLECTED IMMEDIATELY AFTER THE FINAL BALANCE IS PAID. ALTERNATIVELY IF SHIPPING FEES HAVE BEEN PAID THE ITEM WILL BE POSTED THAT DAY.</span></p>
-<p><span style="color: #000000;">DEPOSITS ARE NON TRANSFERABLE AND NON REFUNDABLE. MULTIPLE ITEMS ORDERED MUST BE COLLECTED/ PAID FOR IN ORDER OF STOCK ARRIVAL.</span></p>
-<ol>
-<li><span style="color: #000000;"> YOU CANNOT COLLECT NEW ITEMS IF OLDER ITEMS HAVE AN OUSTANDING BALANCE.</span></li>
-</ol>
-<p><span style="color: #000000;">CANCELLATION OF ORDERS MAY RESULT IN LOSS OF DEPOSIT OR CANCELLATION OF CURRENT PREORDERS.</span></p>
-<p><span style="color: #000000;">FOR MORE INFORMATION:</span></p>
-<p style="color: #000000;"><a href="http://revisedacts.lawreform.ie/">http://revisedacts.lawreform.ie/</a></p>
-<p><a href="https://www.citizensinformation.ie/en/consumer_affairs/consumer_protection/consumer_rights/">https://www.citizensinformation.ie/en/consumer_affairs/consumer_protection/consumer_rights/</a></p></div></div><div id="Ic20828c5ea964ff69f0af6c7abe1d273" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+        switch ("grid"){
+            default:
+            case "grid":
+                var grid = Math.ceil(parseInt(20)/3);
+                view = "grid("+grid+",3)";
+                break;
+            case "list":
+                view = "list("+20+")";
+                break;
+            case "table":
+                view = "table("+20+")";
+                break;
+        }
+
+        if(xProductBrowser){
+            xProductBrowser("categoriesPerRow=3","views="+view+"","categoryView=grid","searchView=list","style=",'defaultCategoryId=0');
+        }
+        if(xMinicart) {
+            xMinicart("style=", "layout=floating");
+            xMinicart("style=", "layout=MiniAttachToProductBrowser");
+        }
+
+
+        Ecwid.OnPageLoaded.add(function(page) {
+          var pageName = page.type;
+
+          var trackPurchaseSuccess = function() {
+            if(sw){
+              return _swECWProcessOrder(pageName);
+            }
+
+            window.swPreRegister = function() {
+              _swECWProcessOrder(pageName);
+            };
+          };
+
+          if(pageName === "ORDER_CONFIRMATION") {
+            trackPurchaseSuccess();
+            return;
+          }
+
+          //If the sitewit object doesn't exist then it will
+          //automatically record the hit when the page loads
+          if(sw){
+            _swECWRecordHit(pageName);
+          }
+        });
+    </script>
+</div></div><div id="I8b79d5480cd9492b9473bcafeec93f48" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
 </div><div id="If6b647f854874d6985d63cf467338a16" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
@@ -1310,7 +1336,38 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="If6b647f854874d6985d63cf467338a16_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: center; color: rgb(0, 0, 0);">© Copyright Dublin City Comics</p></div></div><div id="I0a6cb4ec8f644f12b6abc85d904634d1" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I0a6cb4ec8f644f12b6abc85d904634d1 {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I0a6cb4ec8f644f12b6abc85d904634d1:after {content: "";display: table;clear: both;}.column_I0a6cb4ec8f644f12b6abc85d904634d1 .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I0a6cb4ec8f644f12b6abc85d904634d1 .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I0a6cb4ec8f644f12b6abc85d904634d1 column_divider" ><div id="Left_I0a6cb4ec8f644f12b6abc85d904634d1" class="left" ><div id="I64427607bc264a13910f17b5df799790" style="display:block;clear: both;margin:0 0 0 -14rem;" class="Text_2_Default"><style type="text/css">
+<div id="If6b647f854874d6985d63cf467338a16_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: center; color: rgb(0, 0, 0);">© Copyright Dublin City Comics</p></div></div></div>
+        </div>
+    </div>
+
+    
+    
+</div><div id="I482ac044346049c4bd416051c6aead9c" style="display:block;clear: both;" class="Panel_Default">    <style id='yola-panel-style-I482ac044346049c4bd416051c6aead9c' type='text/css'>
+
+        
+        
+        
+        
+                div#Panel_I482ac044346049c4bd416051c6aead9c {
+            max-width: 70%;
+            margin: 0 auto;
+        }
+        
+        #yola-panel-I482ac044346049c4bd416051c6aead9c {
+            min-height: 0vh;
+        }
+
+        #yola-panel-inner-I482ac044346049c4bd416051c6aead9c {
+            
+        }
+
+        
+        
+            </style>
+
+    <div id='yola-panel-I482ac044346049c4bd416051c6aead9c'>
+                <div id='yola-panel-inner-I482ac044346049c4bd416051c6aead9c'>
+            <div id="Panel_I482ac044346049c4bd416051c6aead9c" style="text-align:left; vertical-align:top;" ><div id="I535a2873cdfb4a9f9b860c3edae3528f" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I535a2873cdfb4a9f9b860c3edae3528f {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I535a2873cdfb4a9f9b860c3edae3528f:after {content: "";display: table;clear: both;}.column_I535a2873cdfb4a9f9b860c3edae3528f .left {text-align: left;vertical-align: top;width: 66.91480562448304%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I535a2873cdfb4a9f9b860c3edae3528f .right {vertical-align: top;width: 33.08519437551696%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I535a2873cdfb4a9f9b860c3edae3528f column_divider" ><div id="Left_I535a2873cdfb4a9f9b860c3edae3528f" class="left" ><div id="I8d11ea67155d45729bdfb8e1857293cf" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1324,7 +1381,7 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="I64427607bc264a13910f17b5df799790_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p>Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_I0a6cb4ec8f644f12b6abc85d904634d1" class="right" ><div id="Id94f46cbb0ac409986f8e716ce6de2b4" style="display:block;clear: both;margin:0 -14rem 0 0;" class="Text_2_Default"><style type="text/css">
+<div id="I8d11ea67155d45729bdfb8e1857293cf_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="color: #000000;">Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_I535a2873cdfb4a9f9b860c3edae3528f" class="right" ><div id="I45b0851ca263408c9b67b8332a81bf1c" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1338,7 +1395,7 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="Id94f46cbb0ac409986f8e716ce6de2b4_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: right;"><a href="terms-and-conditions.html">Terms and Conditions</a>&nbsp;| <a href="privacy-policy.html">Privacy Policy</a>&nbsp;| <a href="shipping-policy.html">Shipping Policy</a></p></div></div></div></div></div></div>
+<div id="I45b0851ca263408c9b67b8332a81bf1c_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: left;"><a href="Terms-and-Conditions.php">Terms and Conditions</a>&nbsp;| <a href="Privacy-Policy.php">Privacy Policy</a>&nbsp;| <a href="Shipping-Policy.php">Shipping Policy</a></p></div></div></div></div></div></div>
         </div>
     </div>
 

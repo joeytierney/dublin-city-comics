@@ -19,7 +19,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 
-<title>Privacy Policy</title>
+<title>Terms and Conditions</title>
 
 
 
@@ -36,7 +36,7 @@
     Some Style Themes enhanced with background textures provided by http://subtlepatterns.com/
 */
 body {
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
     
     background-repeat: repeat;
@@ -90,7 +90,7 @@ body {
     width:100%;
     min-height: 100vh;
     display: table-cell;
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
     vertical-align: top;
 }
@@ -101,7 +101,7 @@ body {
 .yola_heading_container {
     margin: 0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_inner_heading_wrap {
@@ -243,7 +243,7 @@ div.ys_submenu {
 .yola_content_wrap {
     margin:0 auto;
     
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
 }
 .yola_content_column {
@@ -288,7 +288,7 @@ a#sys_heading.yola_show_logo {
 .yola_footer_wrap {
     margin:0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_footer_column {
@@ -886,7 +886,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.small.solid a, .sys_layout .sys_button.small.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -913,7 +913,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.medium.solid a, .sys_layout .sys_button.medium.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -939,7 +939,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.large.solid a, .sys_layout .sys_button.large.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -1104,8 +1104,6 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
   
   
   
-  
-  
 
     </head>
     <body lang="en" class="bgd-attachment-fixed">
@@ -1136,10 +1134,10 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
       <a href="./" title="Home">Home</a>
           </li>
       <li class="">
-      <a href="shop.html" title="Shop">Shop</a>
+      <a href="Shop.php" title="Shop">Shop</a>
           </li>
       <li class="">
-      <a href="contact.html" title="Contact">Contact</a>
+      <a href="contact.php" title="Contact">Contact</a>
           </li>
   </ul>
                                             </div>
@@ -1160,10 +1158,10 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
                     <a href="./" title="Home">Home</a>
         </li>
                     <li id="ys_menu_1">
-                    <a href="shop.html" title="Shop">Shop</a>
+                    <a href="Shop.php" title="Shop">Shop</a>
         </li>
                     <li id="ys_menu_2">
-                    <a href="contact.html" title="Contact">Contact</a>
+                    <a href="contact.php" title="Contact">Contact</a>
         </li>
     </ul>
                
@@ -1171,7 +1169,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
 /* jshint ignore:start */
 $(document).ready(function() {
     flyoutMenu.initFlyoutMenu(
-        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"shop.html","children":[]},{"name":"Contact","title":"Contact","href":"contact.html","children":[]}]
+        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"Shop.php","children":[]},{"name":"Contact","title":"Contact","href":"contact.php","children":[]}]
     , 'flyover');
 });
 /* jshint ignore:end */
@@ -1246,54 +1244,7 @@ $(document).ready(function() {
 
     <div id='yola-panel-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
                 <div id='yola-panel-inner-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
-            <div id="Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc" style="text-align:left; vertical-align:top;" ><div id="I59074844b5164872a7e25392cfad25d5" style="display:block;clear: both;text-align:left;" class="HTML_Default">    <div id="I59074844b5164872a7e25392cfad25d5_html" class="responsive_embed">
-<h1>Privacy Policy for Dublin City Comics</h1>
-
-<p>At Dublin City Comics, accessible from dublincitycomics.ie, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Dublin City Comics and how we use it.</p>
-
-<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
-
-<h2>Log Files</h2>
-
-<p>Dublin City Comics follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
-
-<h2>Cookies and Web Beacons</h2>
-
-<p>Like any other website, Dublin City Comics uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-
-
-
-<h2>Privacy Policies</h2>
-
-<P>You may consult this list to find the Privacy Policy for each of the advertising partners of Dublin City Comics.</p>
-
-<p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Dublin City Comics, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
-
-<p>Note that Dublin City Comics has no access to or control over these cookies that are used by third-party advertisers.</p>
-
-<h2>Third Party Privacy Policies</h2>
-
-<p>Dublin City Comics's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. You may find a complete list of these Privacy Policies and their links here: Privacy Policy Links.</p>
-
-<p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites. What Are Cookies?</p>
-
-<h2>Children's Information</h2>
-
-<p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
-
-<p>Dublin City Comics does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
-
-<h2>Online Privacy Policy Only</h2>
-
-<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Dublin City Comics. This policy is not applicable to any information collected offline or via channels other than this website.</p>
-
-<h2>Consent</h2>
-
-<p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
-</div>
-
-    </div><div id="I765a95e5247f46119c4c0b2320ab7f6d" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
-</div><div id="I0724f9f0de1346aea61e3093782e15a4" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
+            <div id="Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc" style="text-align:left; vertical-align:top;" ><div id="Id4eb23debe9843bdb2ffcae6deac3b31" style="display:block;clear: both;margin:0 0 2rem 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1307,7 +1258,11 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="I0724f9f0de1346aea61e3093782e15a4_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="color: #000000; text-align: center;">© Copyright Dublin City Comics</p></div></div><div id="I5c11a2d255ed443d95561a13064f5b1f" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I5c11a2d255ed443d95561a13064f5b1f {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I5c11a2d255ed443d95561a13064f5b1f:after {content: "";display: table;clear: both;}.column_I5c11a2d255ed443d95561a13064f5b1f .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I5c11a2d255ed443d95561a13064f5b1f .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I5c11a2d255ed443d95561a13064f5b1f column_divider" ><div id="Left_I5c11a2d255ed443d95561a13064f5b1f" class="left" ><div id="I4056d8bf8e4b4b0686b6dfbb4110f927" style="display:block;clear: both;margin:0 0 0 -14rem;" class="Text_2_Default"><style type="text/css">
+<div id="Id4eb23debe9843bdb2ffcae6deac3b31_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h3 style="text-align: center; color: rgb(5, 5, 5);" class="p1">Terms and Conditions</h3>
+<h5 style="color: rgb(0, 0, 0);">NOTE TO RECIPIENT</h5>
+<p style="color: rgb(0, 0, 0);">Thanks for buying stuff from us, your friendly neighbourhood comic and toy shop! May the force be with you, live long and prosper, but above all be excellent to each other!</p>
+<p style="color: rgb(0, 0, 0);">If we are posting stuff to you, proof of postage will be provided shortly after we get notification of payment.</p></div></div><div id="If743d9f8dd044115978ff031cf8f69c2" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="I6bf9b5c8ab7646648d9e922617007d2d" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1321,7 +1276,27 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="I4056d8bf8e4b4b0686b6dfbb4110f927_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p>Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_I5c11a2d255ed443d95561a13064f5b1f" class="right" ><div id="I5abdc93d01544af19672c31c659bc878" style="display:block;clear: both;margin:0 -14rem 0 0;" class="Text_2_Default"><style type="text/css">
+<div id="I6bf9b5c8ab7646648d9e922617007d2d_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h5 style="color: #000000;">TERMS AND CONDITIONS</h5>
+<p><span></span></p>
+<p><span style="color: #000000;">BY PAYING OR PAYING IN PART FOR THE ITEM(S) LISTED ON THIS INVOICE YOU ARE AGREEING TO THE TERMS OF SALE OUTLINED IN THE FOLLOWING ACTS OF IRISH LAW:</span></p>
+<p style="color: #000000;"><span>SALE</span><span> OF GOODS ACT 1893,</span></p>
+<p style="color: #000000;"><span>SALE</span><span> OF GOODS AND SUPPLY OF SERVICES ACT 1980,</span></p>
+<p><span style="color: #000000;">S.I. NO. 11/2003 - EUROPEAN COMMUNITIES (CERTAIN ASPECTS OF THE SALE OF CONSUMER GOODS AND ASSOCIATED GUARANTEES) REGULATIONS 2003.</span></p>
+<p><span style="color: #000000;">ALL ITEMS SOLD AS “SECOND HAND” OR “PREOWNED” ARE EXEMPT FROM NORMAL WARRANTIES AND ARE “SOLD AS SEEN”. ALL SUCH ITEMS SHOULD BE AND ARE ASSUMED TO BE INSPECTED BY THE BUYER AT THE TIME OF SALE. </span></p>
+<p><span style="color: #000000;">ANY MINOR DEFECTS/DAMAGES REPORTED AFTER THE SALE WILL NOT BE ENTERTAINED.</span></p>
+<p><span style="color: #000000;">ALL ITEMS SOLD AS “PREORDERS” OR “PREORDERED” SHALL BE REGARDED AS “FUTURE GOODS” UNDER THE SALE OF GOODS ACT 1893 AND THE AGREED UPON PRICE IS ALWAYS CONSIDERED AN ESTIMATED PRICE AND MAY FLUCTUATE IN ACCORDANCE WITH CURRENCY EXCHANGES/SUPPLIER PRICE INCREASES. WE WILL ALWAYS ENDEAVOUR TO INFORM CUSTOMERS OF THESE POSSIBLE INCREASES IN ADVANCE OF PAYMENT.</span></p>
+<p><span style="color: #000000;">ANY ITEM(S) IN THE STORE CAN BE HELD AND PAYED FOR WITH INSTALLMENTS FOR A MAXIMUM OF UP TO TWO MONTHS AFTER INITIAL PAYMENT WITH AN INITIAL DEPOSIT OF 20% OF THE TOTAL SALE/ITEM(S) VALUE. PART PAYED FOR ITEMS WILL BE CONSIDERED AS STORE PROPERTY UNTIL FINAL PAYMENT IS MADE. THE BALANCE OF PAYMENT FOR PREORDERED AND HELD ITEM(S) MUST BE PAID WITHIN TWO MONTHS OF THE ITEMS ARRIVAL IN STORE/ INITIAL PAYMENT OR YOU WILL LOSE YOUR DEPOSIT.</span></p>
+<p><span style="color: #000000;">PREORDERED ITEMS WILL NOT BE ORDERED WITHOUT A DEPOSIT UNLESS AGREED AT THE TIME OF INITIAL ORDER.</span></p>
+<p><span style="color: #000000;">PAYMENTS CAN BE MADE AT ANY TIME IN STORE OR VIA PAYPAL INVOICE AFTER THE INITIAL PAYMENT AND THE ITEM MUST BE COLLECTED IMMEDIATELY AFTER THE FINAL BALANCE IS PAID. ALTERNATIVELY IF SHIPPING FEES HAVE BEEN PAID THE ITEM WILL BE POSTED THAT DAY.</span></p>
+<p><span style="color: #000000;">DEPOSITS ARE NON TRANSFERABLE AND NON REFUNDABLE. MULTIPLE ITEMS ORDERED MUST BE COLLECTED/ PAID FOR IN ORDER OF STOCK ARRIVAL.</span></p>
+<ol>
+<li><span style="color: #000000;"> YOU CANNOT COLLECT NEW ITEMS IF OLDER ITEMS HAVE AN OUSTANDING BALANCE.</span></li>
+</ol>
+<p><span style="color: #000000;">CANCELLATION OF ORDERS MAY RESULT IN LOSS OF DEPOSIT OR CANCELLATION OF CURRENT PREORDERS.</span></p>
+<p><span style="color: #000000;">FOR MORE INFORMATION:</span></p>
+<p style="color: #000000;"><a href="http://revisedacts.lawreform.ie/">http://revisedacts.lawreform.ie/</a></p>
+<p><a href="https://www.citizensinformation.ie/en/consumer_affairs/consumer_protection/consumer_rights/">https://www.citizensinformation.ie/en/consumer_affairs/consumer_protection/consumer_rights/</a></p></div></div><div id="Ic20828c5ea964ff69f0af6c7abe1d273" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="If6b647f854874d6985d63cf467338a16" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1335,7 +1310,35 @@ $(document).ready(function() {
     }
 </style>
 
-<div id="I5abdc93d01544af19672c31c659bc878_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: right;"><a href="terms-and-conditions.html">Terms and Conditions</a>&nbsp;| <a href="privacy-policy.html">Privacy Policy</a>&nbsp;| <a href="shipping-policy.html">Shipping Policy</a></p></div></div></div></div></div></div>
+<div id="If6b647f854874d6985d63cf467338a16_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: center; color: rgb(0, 0, 0);">© Copyright Dublin City Comics</p></div></div><div id="I0a6cb4ec8f644f12b6abc85d904634d1" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I0a6cb4ec8f644f12b6abc85d904634d1 {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I0a6cb4ec8f644f12b6abc85d904634d1:after {content: "";display: table;clear: both;}.column_I0a6cb4ec8f644f12b6abc85d904634d1 .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I0a6cb4ec8f644f12b6abc85d904634d1 .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I0a6cb4ec8f644f12b6abc85d904634d1 column_divider" ><div id="Left_I0a6cb4ec8f644f12b6abc85d904634d1" class="left" ><div id="I64427607bc264a13910f17b5df799790" style="display:block;clear: both;margin:0 0 0 -14rem;" class="Text_2_Default"><style type="text/css">
+    div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
+    div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
+    div.sys_text_widget img{margin:4px;}
+    div.sys_text_widget {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        color: ;
+        font: ;
+        background-color: ;
+    }
+</style>
+
+<div id="I64427607bc264a13910f17b5df799790_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p>Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_I0a6cb4ec8f644f12b6abc85d904634d1" class="right" ><div id="Id94f46cbb0ac409986f8e716ce6de2b4" style="display:block;clear: both;margin:0 -14rem 0 0;" class="Text_2_Default"><style type="text/css">
+    div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
+    div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
+    div.sys_text_widget img{margin:4px;}
+    div.sys_text_widget {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        color: ;
+        font: ;
+        background-color: ;
+    }
+</style>
+
+<div id="Id94f46cbb0ac409986f8e716ce6de2b4_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: right;"><a href="Terms-and-Conditions.php">Terms and Conditions</a>&nbsp;| <a href="Privacy-Policy.php">Privacy Policy</a>&nbsp;| <a href="Shipping-Policy.php">Shipping Policy</a></p></div></div></div></div></div></div>
         </div>
     </div>
 

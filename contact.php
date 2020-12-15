@@ -19,7 +19,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
 
-<title>Shipping Policy</title>
+<title>Dublin City Comics | Contact</title>
 
 
 
@@ -36,9 +36,9 @@
     Some Style Themes enhanced with background textures provided by http://subtlepatterns.com/
 */
 body {
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
-    
+    background-image: url(resources/72540437_2494346413953185_2546174518511009792_n.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: top left;
@@ -58,7 +58,7 @@ body {
         right: 0;
         width: 100%;
         height: 100%;
-        
+        background-image: url(resources/72540437_2494346413953185_2546174518511009792_n.jpg);
         background-repeat: repeat;
         background-position: top left;
         background-size: auto;
@@ -90,7 +90,7 @@ body {
     width:100%;
     min-height: 100vh;
     display: table-cell;
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
     vertical-align: top;
 }
@@ -101,7 +101,7 @@ body {
 .yola_heading_container {
     margin: 0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_inner_heading_wrap {
@@ -243,7 +243,7 @@ div.ys_submenu {
 .yola_content_wrap {
     margin:0 auto;
     
-        background-color: #ffffff;
+    	background-color: #ffffff;
 
 }
 .yola_content_column {
@@ -288,7 +288,7 @@ a#sys_heading.yola_show_logo {
 .yola_footer_wrap {
     margin:0 auto;
     
-        background-color: #01b9f9;
+    	background-color: #01b9f9;
 
 }
 .yola_footer_column {
@@ -886,7 +886,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.small.solid a, .sys_layout .sys_button.small.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -913,7 +913,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.medium.solid a, .sys_layout .sys_button.medium.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -939,7 +939,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
     color: #88b7d5;
 }
 .sys_layout .sys_button.large.solid a, .sys_layout .sys_button.large.solid a:link {
-        background-color: #88b7d5;
+    	background-color: #88b7d5;
 
     color: #ffffff;
     border-color:#88b7d5;
@@ -1096,13 +1096,17 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
   window.swPostRegister = swRegisterManager.registerGoals.bind(swRegisterManager);
 </script>
 
+  <link rel="stylesheet" type="text/css" href="classes/components/Image/layouts/Default/Default.css?1001088" />
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="classes/components/Form/layouts/Default/Default.css?1001088" />
   
   
   
   
   
-  
-  
+  <link rel="stylesheet" type="text/css" href="classes/components/GoogleMapV2/layouts/Default/Default.css?1001088" />
   
   
   
@@ -1136,10 +1140,10 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
       <a href="./" title="Home">Home</a>
           </li>
       <li class="">
-      <a href="shop.html" title="Shop">Shop</a>
+      <a href="Shop.php" title="Shop">Shop</a>
           </li>
-      <li class="">
-      <a href="contact.html" title="Contact">Contact</a>
+      <li class="selected">
+      <a href="contact.php" title="Contact">Contact</a>
           </li>
   </ul>
                                             </div>
@@ -1160,10 +1164,10 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
                     <a href="./" title="Home">Home</a>
         </li>
                     <li id="ys_menu_1">
-                    <a href="shop.html" title="Shop">Shop</a>
+                    <a href="Shop.php" title="Shop">Shop</a>
         </li>
-                    <li id="ys_menu_2">
-                    <a href="contact.html" title="Contact">Contact</a>
+                    <li id="ys_menu_2"class="selected">
+                    <a href="contact.php" title="Contact">Contact</a>
         </li>
     </ul>
                
@@ -1171,7 +1175,7 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
 /* jshint ignore:start */
 $(document).ready(function() {
     flyoutMenu.initFlyoutMenu(
-        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"shop.html","children":[]},{"name":"Contact","title":"Contact","href":"contact.html","children":[]}]
+        [{"name":"Home","title":"Home","href":".\/","children":[]},{"name":"Shop","title":"Shop","href":"Shop.php","children":[]},{"name":"Contact","title":"Contact","href":"contact.php","children":[]}]
     , 'flyover');
 });
 /* jshint ignore:end */
@@ -1221,156 +1225,178 @@ $(document).ready(function() {
 
 <div class="layout_1-column sys_layout">
     <div id="layout_row1">
-        <div id="sys_region_1" class="zone_top" ><div id="I9b1d9b95e5d849fe9be732bb0c8aebdc" style="display:block;clear: both;" class="Panel_Default">    <style id='yola-panel-style-I9b1d9b95e5d849fe9be732bb0c8aebdc' type='text/css'>
+        <div id="sys_region_1" class="zone_top" ><div id="I727f6f3aa4984123b16146a503295e88" style="display:block;clear: both;" class="Panel_Default">    <style id='yola-panel-style-I727f6f3aa4984123b16146a503295e88' type='text/css'>
 
         
         
         
         
-                div#Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc {
-            max-width: 770px;
+                div#Panel_I727f6f3aa4984123b16146a503295e88 {
+            max-width: 1200px;
             margin: 0 auto;
         }
         
-        #yola-panel-I9b1d9b95e5d849fe9be732bb0c8aebdc {
-            min-height: 0vh;
+        #yola-panel-I727f6f3aa4984123b16146a503295e88 {
+            min-height: 0vh;position:relative;
         }
 
-        #yola-panel-inner-I9b1d9b95e5d849fe9be732bb0c8aebdc {
-            padding:5rem 1rem 5rem 1rem;
+        #yola-panel-inner-I727f6f3aa4984123b16146a503295e88 {
+            padding:1rem;position:relative;
         }
 
+                    #yola-panel-background-I727f6f3aa4984123b16146a503295e88 {
+                                    background:#FFFFFF;background-position:top left;background-repeat:no-repeat;position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;pointer-events:none;touch-action:none;
+                            }
         
         
             </style>
 
-    <div id='yola-panel-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
-                <div id='yola-panel-inner-I9b1d9b95e5d849fe9be732bb0c8aebdc'>
-            <div id="Panel_I9b1d9b95e5d849fe9be732bb0c8aebdc" style="text-align:left; vertical-align:top;" ><div id="Ic137d8636f2f45d08c9d549dd5a3ef8e" style="display:block;clear: both;text-align:left;" class="HTML_Default">    <div id="Ic137d8636f2f45d08c9d549dd5a3ef8e_html" class="responsive_embed"><h1> Shipping Policy </h1>
-
-<p>Thank you for visting and shopping at dublincitycomics.ie</p>
-
-<p>Please find our Shipping Policy terms and conditions below.</p>
-
-<h5> Shipment Processing Time </h5>
-
-<p>All orders are processed within 2-3 business days. Orders are not shipped or delivered on weekends or holidays.</p>
-
-<p>If we are experiencing a high volume of orders, shipments may be delayed by a few days. Please allow additional days in transit for delivery. If there will be a significant delay in shipment of your order, we will contact you via email or telephone.</p>
-
-<h5> Shipping Rates and Delivery Estimates </h5>
-
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  
-}
-  caption { 
-  display: table-caption;
-  text-align: left;
-}
+    <div id='yola-panel-I727f6f3aa4984123b16146a503295e88'>
+                    <div
+                id='yola-panel-background-I727f6f3aa4984123b16146a503295e88'
+                            >
+                                            </div>
+                <div id='yola-panel-inner-I727f6f3aa4984123b16146a503295e88'>
+            <div id="Panel_I727f6f3aa4984123b16146a503295e88" style="text-align:left; vertical-align:top;" ><div id="Ia1c01018373b46f795239f357e953d2f" style="display:block;clear: both;text-align:center;" class="Image_Default"><style>#Ia1c01018373b46f795239f357e953d2f_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 794px;border:none;max-width: 100%;height: auto;}</style><img id="Ia1c01018373b46f795239f357e953d2f_img" src="resources/new-contact-header.png"  alt="Get in contact with us"  /></div><div id="I5ddeb9a657c547019802c17c759bf2e3" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div><div id="I1afb5b67097e4f0f80d05db945bdc488" style="display:block;clear: both;margin:0 0 0 0;" class="Layout1_Default"><style>.column_I1afb5b67097e4f0f80d05db945bdc488 {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I1afb5b67097e4f0f80d05db945bdc488:after {content: "";display: table;clear: both;}.column_I1afb5b67097e4f0f80d05db945bdc488 .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I1afb5b67097e4f0f80d05db945bdc488 .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I1afb5b67097e4f0f80d05db945bdc488 column_divider" ><div id="Left_I1afb5b67097e4f0f80d05db945bdc488" class="left" ><div id="I8d62b47a420b45fcb0ae868a7ac95730" style="display:block;clear: both;text-align:center;margin:0 0 0 0;" class="Image_Default"><style>#I8d62b47a420b45fcb0ae868a7ac95730_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 560px;border:none;max-width: 100%;height: auto;}</style><img id="I8d62b47a420b45fcb0ae868a7ac95730_img" src="resources/Logos/new-social-banner.png"  /></div><div id="I76eedebc13fe47b8afde0242ebb0cc27" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I76eedebc13fe47b8afde0242ebb0cc27 {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I76eedebc13fe47b8afde0242ebb0cc27:after {content: "";display: table;clear: both;}.column_I76eedebc13fe47b8afde0242ebb0cc27 .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I76eedebc13fe47b8afde0242ebb0cc27 .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I76eedebc13fe47b8afde0242ebb0cc27 column_divider" ><div id="Left_I76eedebc13fe47b8afde0242ebb0cc27" class="left" ><div id="I84dcc72988c146fa81048537b4cc6637" style="display:block;clear: both;text-align:center;margin:0.1rem 0.1rem 0.1rem 0.1rem;" class="Image_Default"><a href="https://www.facebook.com/DublinCityComics/" target="_blank" ><style>#I84dcc72988c146fa81048537b4cc6637_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 62px;border:none;max-width: 100%;height: auto;}</style><img id="I84dcc72988c146fa81048537b4cc6637_img" src="resources/Logos/Social_media_icons/Facebook-logo.png"  alt="Facebook"  /></a></div><div id="Ibc21d2c7853e48af97a47405d63b5335" style="display:block;clear: both;text-align:center;" class="Image_Default"><a href="https://www.youtube.com/channel/UC3A6z22u51EgLGB-RDWmUew" target="_blank" ><style>#Ibc21d2c7853e48af97a47405d63b5335_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 70px;border:none;max-width: 100%;height: auto;}</style><img id="Ibc21d2c7853e48af97a47405d63b5335_img" src="resources/Logos/Social_media_icons/YouTube-logo.png"  alt="YouTube"  /></a></div></div><div id="Right_I76eedebc13fe47b8afde0242ebb0cc27" class="right" ><div id="I556db3274f68467bad169760094bf358" style="display:block;clear: both;text-align:left;" class="Image_Default"><a href="https://twitter.com/Dublincitycomic" target="_blank" ><style>#I556db3274f68467bad169760094bf358_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 60px;border:none;max-width: 100%;height: auto;}</style><img id="I556db3274f68467bad169760094bf358_img" src="resources/Logos/Social_media_icons/Twitter-logo.png"  /></a></div><div id="I613fcd270a39411db2598b9cb8953c49" style="display:block;clear: both;text-align:left;" class="Image_Default"><a href="https://www.instagram.com/dublincitycomics/" target="_blank" ><style>#I613fcd270a39411db2598b9cb8953c49_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 64px;border:none;max-width: 100%;height: auto;}</style><img id="I613fcd270a39411db2598b9cb8953c49_img" src="resources/Logos/Social_media_icons/Instagram-logo.png"  /></a></div></div></div></div><div id="I75d63082df0244f7bcb5221b2d49d902" style="display:block;clear: both;text-align:center;" class="Image_Default"><style>#I75d63082df0244f7bcb5221b2d49d902_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 560px;border:none;max-width: 100%;height: auto;}</style><img id="I75d63082df0244f7bcb5221b2d49d902_img" src="resources/test-contact-banner.png"  alt="Contact details"  /></div><div id="Ia5a42897e9674175ac738cddbaab1645" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
+    div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
+    div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
+    div.sys_text_widget img{margin:4px;}
+    div.sys_text_widget {
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        color: ;
+        font: ;
+        background-color: ;
+    }
 </style>
 
-<table style="width:100%">
-  <caption><b>Ireland</b></caption>
-  <tr>
-    <th>Shipment Method</th>
-    <th>Estimated Delivery Time</th>
-    <th>Shipment Cost</th>
-  </tr>
-  <tr>
-    <td>Instore Pickup</td>
-    <td>1 - 2 hours</td>
-    <td>Free</td>
-  </tr>
-  <tr>
-    <td>An Post Standard/Registered (up to 20 kilos) Ireland</td>
-    <td>1 - 3 business days</td>
-    <td>€9 - €16</td>
-  </tr>
-</table>
-<br>
-<table style="width:100%">
-  <caption><b>United Kingdom</b></caption>
-  <tr>
-    <th>Shipment Method</th>
-    <th>Estimated Delivery Time</th>
-    <th>Shipment Cost</th>
-  </tr>
-  <tr>
-    <td>An Post Standard (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€21 - €25</td>
-  </tr>
-  <tr>
-    <td>An Post Registered (tracked and insured) (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€28 - €35</td>
-  </tr>
-</table>
-<br>
-<table style="width:100%">
-  <caption><b>Europe</b></caption>
-  <tr>
-    <th>Shipment Method</th>
-    <th>Estimated Delivery Time</th>
-    <th>Shipment Cost</th>
-  </tr>
-  <tr>
-    <td>An Post Standard (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€28 - €82</td>
-  </tr>
-  <tr>
-    <td>An Post Registered (tracked and insured) (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€35 - €89</td>
-  </tr>
-</table>
-<br>
-<table style="width:100%">
-  <caption><b>Rest of World</b></caption>
-  <tr>
-    <th>Shipment Method</th>
-    <th>Estimated Delivery Time</th>
-    <th>Shipment Cost</th>
-  </tr>
-  <tr>
-    <td>An Post Standard (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€28 - €83</td>
-  </tr>
-  <tr>
-    <td>An Post Registered (tracked and insured) (up to 20 kilos)</td>
-    <td>3 - 7 business days</td>
-    <td>€36 - €90</td>
-  </tr>
-</table>
-<br>
-<p>Shipping charges for your order will be calculated and displayed at checkout.</p>
+<div id="Ia5a42897e9674175ac738cddbaab1645_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h5 style="color: #000000; text-align: left;">Phone</h5>
+<p style="color: #000000; text-align: left;">+353 85 771 7633</p>
+<h5 style="color: #000000; text-align: left;">Address</h5>
+<p style="color: #000000; text-align: left;">103-104 Capel Street<br>Dublin 1, Ireland</p>
+<h5 style="color: #000000; text-align: left;">Email</h5>
+<p style="text-align: left;"><a href="mailto:info@dublincitycomics.ie" target="_blank" rel="noopener">info@dublincitycomics.ie</a></p></div></div><div id="Ie328b9369930466c8423afc483f8d5f2" style="display:block;clear: both;" class="GoogleMapV2_Default">  <div id="map-widget-Ie328b9369930466c8423afc483f8d5f2" class="map-widget">
+    <iframe class="disabled"
+      width="100%"
+      height="360px"
+      frameborder="0"
+      style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?q=53.3499592,-6.269459200000028&key=AIzaSyARNP6PBrYdKNmsYf09tU8jRnffQb-sFQg&language=en"
+      allowfullscreen>
+    </iframe>
+  </div>
 
-<p>Delivery delays can occasionally occur.</p>
+  <script type="text/javascript">
+    (function() {
+      var widgetId = "map-widget-Ie328b9369930466c8423afc483f8d5f2";
+      var widget = document.getElementById(widgetId);
+      var map = widget.firstElementChild;
 
-<h5> Shipment Confirmation and Order Tracking </h5>
+      $(widget).click(function () {
+        $(map).removeClass('disabled');
+      });
 
-<p>You will receive a Shipment Confirmation email once your order has shipped containing your tracking number(s). The tracking number will be active within 24 hours.</p>
+      $(widget).mouseleave(function () {
+        $(map).addClass('disabled');
+      });
+    })();
+  </script>
+</div></div><div id="Right_I1afb5b67097e4f0f80d05db945bdc488" class="right" ><div id="Ie1558c2e35154937b181363f86dab4d5" style="display:block;clear: both;text-align:center;" class="Image_Default"><style>#Ie1558c2e35154937b181363f86dab4d5_img {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;width: 560px;border:none;max-width: 100%;height: auto;}</style><img id="Ie1558c2e35154937b181363f86dab4d5_img" src="resources/test-form-banner.png"  /></div><div id="I9ba609617a934b459631a5e05e4b802b" style="display:block;clear: both;" class="Form_Default"><div class="sys_yola_form">
 
-<h5> Customs, Duties and Taxes </h5>
+    
+        
+        <form method='post' accept-charset="UTF-8" action='//forms.yola.com/formservice/en/39262758b9fe449ca41de1e1bf8eb038/6d67bb7569f74b24afd86223cc217c1e/a096f638371e46ddb3cde28288522da6/I9ba609617a934b459631a5e05e4b802b/'>
 
-<p>dublincitycomics.ie  is not responsible for any other customs and taxes applied to your order. All fees imposed during or after shipping are the responsibility of the customer (tariffs, taxes, etc.).</p>
+            
+                <div class='yola-form-field'>
 
-<h5> Damages </h5>
+                                                                        <p class='label'><label for='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_0'>Name</label></p>
+                                            
+                                            <input id='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_0' class='text' name='0<text>' type='text' value=''
+                             >
+                    
+                    <input type='hidden' name='0<label>' value='Name' />
 
-<p>dublincitycomics.ie is not liable for any products damaged or lost during shipping. If you received your order damaged, please contact An Post to file a claim. Please save all packaging materials and damaged goods before filing a claim.</p>
+                </div>
 
-<h5> Returns Policy </h5>
+            
+                <div class='yola-form-field'>
 
-<p>Our Return and Refund Policy provides detailed information about options and procedures for returning your order.</p>
+                                                                        <p class='label'><label for='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_1'>Email</label></p>
+                                            
+                                            <input id='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_1' class='email' name='1<text>' type='email' value=''
+                             >
+                    
+                    <input type='hidden' name='1<label>' value='Email' />
 
+                </div>
+
+            
+                <div class='yola-form-field'>
+
+                                                                        <p class='label'><label for='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_2'>Phone</label></p>
+                                            
+                                            <input id='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_2' class='tel' name='2<text>' type='tel' value=''
+                             >
+                    
+                    <input type='hidden' name='2<label>' value='Phone' />
+
+                </div>
+
+            
+                <div class='yola-form-field'>
+
+                                                                        <p class='label'><label for='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_3'>Message</label></p>
+                                            
+                                            <textarea id='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_3' name='3<textarea>'
+                             ></textarea>
+                     
+                    <input type='hidden' name='3<label>' value='Message' />
+
+                </div>
+
+            
+                <div class='yola-form-field'>
+
+                                                                        <p  class='label hidden'class='label'>User Agreement</p>
+                                            
+                                                                        <input class='checkbox' id='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_4_0' type='checkbox' name='4<checkbox>' value='Agreed' required='required' oninvalid='this.setCustomValidity("Please check this box to proceed.")' oninput='this.setCustomValidity("")' />
+                            <label for='yola_form_widget_I9ba609617a934b459631a5e05e4b802b_4_0'><span class='checkbox_styles'></span>GDPR Agreement<br /><br />I consent to having this website store my submitted information so they can respond to my inquiry<br /><br />By continuing, you agree to our Privacy Policy and Terms of Service</label>
+                            <br />
+                                            
+                    <input type='hidden' name='4<label>' value='User Agreement' />
+
+                </div>
+
+            
+            <input type='hidden' name='redirect' value='https://dublincitycomics.ie/contact.php?formI9ba609617a934b459631a5e05e4b802bPosted=true' />
+            <input type='hidden' name='locale' value='en' />
+            <input type='hidden' name='redirect_fail' value='https://dublincitycomics.ie/contact.php?formI9ba609617a934b459631a5e05e4b802bPosted=false' />
+            <input type='hidden' name='form_name' value='' />
+            <input type='hidden' name='site_name' value='Dublin City Comics' />
+            <input type='hidden' name='wl_site' value='1' />
+                        <input type='hidden' name='destination' value='n87tGpLX9valAVD_O_c7IkNGDdTCnZpxUvYxjvbfWnJWVCt3dMqn1A==:J1oxiE5Tw_8D2fSMWlmpnaNO-c7Ju1IUNruwRpq8iqM=' />
+            
+            <div class="recaptcha-wrap">
+    <span class="recaptcha-spin"></span>
+    <div class="g-recaptcha" data-sitekey="6LcEthAUAAAAANLeILVZiZpPDbVwyoQuQ7c3qlsy" id="recaptcha-I9ba609617a934b459631a5e05e4b802b"></div>
 </div>
 
-    </div><div id="I28abfeca625f4cb494b5c87ae5510109" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+<script>
+    window.formWidgetRecaptchaQueue = window.formWidgetRecaptchaQueue || [];
+    window.formWidgetRecaptchaQueue.push('recaptcha-I9ba609617a934b459631a5e05e4b802b');
+</script>
+<script src="classes/components/Form/layouts/Default/recaptcha.js?1001088"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=recaptchacb&render=explicit&hl=en" async defer></script>
+                            <p><input class='submit' type="submit" value="Submit" /></p>
+            
+        </form>
+
+    
+    
+</div></div></div></div></div><div id="Ie41f642ee6834bd2b3b1e3f26b9a348a" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
 </div><div id="If6b647f854874d6985d63cf467338a16" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
@@ -1385,7 +1411,7 @@ table, th, td {
     }
 </style>
 
-<div id="If6b647f854874d6985d63cf467338a16_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: center;">© Copyright Dublin City Comics</p></div></div><div id="I33928cf5d5de4844847681355b4bbbeb" style="display:block;clear: both;" class="Layout1_Default"><style>.column_I33928cf5d5de4844847681355b4bbbeb {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I33928cf5d5de4844847681355b4bbbeb:after {content: "";display: table;clear: both;}.column_I33928cf5d5de4844847681355b4bbbeb .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_I33928cf5d5de4844847681355b4bbbeb .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_I33928cf5d5de4844847681355b4bbbeb column_divider" ><div id="Left_I33928cf5d5de4844847681355b4bbbeb" class="left" ><div id="Id9cf062f48b747c6b99588dbfcb6d6c8" style="display:block;clear: both;margin:0 0 0 -14rem;" class="Text_2_Default"><style type="text/css">
+<div id="If6b647f854874d6985d63cf467338a16_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="color: rgb(0, 0, 0); text-align: center;">© Copyright Dublin City Comics</p></div></div><div id="Ib07f2b3aa40444c5be3bf10a2ae9564b" style="display:block;clear: both;" class="Layout1_Default"><style>.column_Ib07f2b3aa40444c5be3bf10a2ae9564b {width: 100%;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_Ib07f2b3aa40444c5be3bf10a2ae9564b:after {content: "";display: table;clear: both;}.column_Ib07f2b3aa40444c5be3bf10a2ae9564b .left {text-align: left;vertical-align: top;width: 50%;padding: 0 15px 0 0;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing:border-box;}.column_Ib07f2b3aa40444c5be3bf10a2ae9564b .right {vertical-align: top;width: 50%;padding: 0 0 0 15px;float: left;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}</style><div class="column_Ib07f2b3aa40444c5be3bf10a2ae9564b column_divider" ><div id="Left_Ib07f2b3aa40444c5be3bf10a2ae9564b" class="left" ><div id="I6c83ea234e5e473b896be0090ddde94b" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1399,7 +1425,7 @@ table, th, td {
     }
 </style>
 
-<div id="Id9cf062f48b747c6b99588dbfcb6d6c8_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p>Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_I33928cf5d5de4844847681355b4bbbeb" class="right" ><div id="Ib842d757cad549bd85f868a841a0a9e1" style="display:block;clear: both;margin:0 -14rem 0 0;" class="Text_2_Default"><style type="text/css">
+<div id="I6c83ea234e5e473b896be0090ddde94b_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="color: #000000;">Web Design by <a href="http://joeytierney.ie" target="_blank" rel="noopener">Joey Tierney</a></p></div></div></div><div id="Right_Ib07f2b3aa40444c5be3bf10a2ae9564b" class="right" ><div id="I7a503a89bc744b2096786ea27e4fbab8" style="display:block;clear: both;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
     div.sys_text_widget img{margin:4px;}
@@ -1413,7 +1439,7 @@ table, th, td {
     }
 </style>
 
-<div id="Ib842d757cad549bd85f868a841a0a9e1_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: right;"><a href="terms-and-conditions.html">Terms and Conditions</a>&nbsp;| <a href="privacy-policy.html">Privacy Policy</a>&nbsp;| <a href="shipping-policy.html">Shipping Policy</a></p></div></div></div></div></div></div>
+<div id="I7a503a89bc744b2096786ea27e4fbab8_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><p style="text-align: right;"><a href="Terms-and-Conditions.php">Terms and Conditions</a>&nbsp;| <a href="Privacy-Policy.php">Privacy Policy</a>&nbsp;| <a href="Shipping-Policy.php">Shipping Policy</a></p></div></div></div></div></div></div>
         </div>
     </div>
 
