@@ -1102,15 +1102,6 @@ a:hover, .sys_txt a:hover, .sys_layout a:hover {text-decoration: none;}
   
   
   <link rel="stylesheet" type="text/css" href="classes/components/Image/layouts/Default/Default.css?1001088" />
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
     </head>
     <body lang="en" class="bgd-attachment-fixed">
@@ -1266,7 +1257,7 @@ $(document).ready(function() {
         background-color: ;
     }
 </style>
-
+<!--
 <div id="Idccb37e19dcd411099c059a71436fe2d_sys_txt" systemElement="true" class="sys_txt sys_text_widget new-text-widget"><h6><a href="https://www.dublincitycomics.ie/Shop.php#!/~/search" title="Search Products"><img src="resources/searchprod.png?timestamp=1585826103570" height="22" style="width: 27px;"><strong>Search Products</strong></a></h6></div></div><div id="I32f6508e2da64c5aa061557b49201a33" style="display:block;clear: both;margin:0 0 0 0;" class="Ecwid_Ecommerce_Default">
 <div>
     <script type="text/javascript" src="https://app.yolastore.com/script.js?20146791" charset="utf-8"></script>
@@ -1321,7 +1312,7 @@ $(document).ready(function() {
           }
         });
     </script>
-</div></div><div id="I8b79d5480cd9492b9473bcafeec93f48" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
+</div></div> --><div id="I8b79d5480cd9492b9473bcafeec93f48" style="display:block;clear: both;margin:10px 10px 10px 10px;" class="Horizontal_Line_Default">    <div style='border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#f53d00;font-size:0;padding:0;margin:0;height:0;line-height:0;'></div>
 </div><div id="If6b647f854874d6985d63cf467338a16" style="display:block;clear: both;margin:0 0 0 0;" class="Text_2_Default"><style type="text/css">
     div.sys_text_widget img.float-left{float:left;margin:10px 15px 10px 0;}
     div.sys_text_widget img.float-right{position:relative;margin:10px 0 10px 15px;}
